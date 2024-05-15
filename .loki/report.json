@@ -1,0 +1,15 @@
+{
+  "newItems": [],
+  "deletedItems": [],
+  "passedItems": [],
+  "failedItems": [],
+  "expectedItems": [],
+  "actualItems": [],
+  "diffItems": [],
+  "actualDir": "current",
+  "expectedDir": "reference",
+  "diffDir": "difference"
+}
+
+
+// reg-cli --from .loki/report.json --report .loki/report.html

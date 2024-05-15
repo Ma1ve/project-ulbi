@@ -1,0 +1,225 @@
+[
+  {
+    "id": "1",
+    "title": "Java news",
+    "subtitle": "Что нового в JS 2014",
+    "img": "https://cs11.pikabu.ru/post_img/2020/02/29/11/og_og_1583005972263333358.jpg",
+    "views": 4545,
+    "user": {
+      "id": "1",
+      "username": "ILYA",
+      "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+    },
+    "createdAt": "26.02.2024",
+    "userId": "1",
+    "type": ["IT"],
+    "blocks": [
+      {
+        "id": "1",
+        "type": "TEXT",
+        "title": "NEW TITITITIITITIIT",
+        "paragraphs": ["In this example, we use the Image() constructor to create an image element, then we set its src and append in body element. Additionally, we set a lazy loading for the image."]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Python news",
+    "subtitle": "Что нового в PYTHON 2014",
+    "img": "https://dkrn4sk0rn31v.cloudfront.net/2020/01/07093212/PYTHON.png",
+    "views": 1022,
+    "user": {
+      "id": "1",
+      "username": "ILYA",
+      "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+    },
+    "createdAt": "26.02.2024",
+    "userId": "1",
+    "type": ["IT", "ECONOMICS"],
+    "blocks": [
+      {
+        "id": "1",
+        "type": "TEXT",
+        "title": "Заголовок этого блока",
+        "paragraphs": [
+          "Высокоуровневый язык программирования общего назначения с динамической строгой типизацией и автоматическим управлением памятью, ориентированный на повышение производительности разработчика, читаемости кода и его качества, а также на обеспечение"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "KOTLIN news Свежий",
+    "subtitle": "Что нового в KOTLIN 2014",
+    "img": "https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/coding-orbit--kotlin.jpg",
+    "views": 22,
+    "user": {
+      "id": "1",
+      "username": "ILYA",
+      "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+    },
+    "createdAt": "22.02.2019",
+    "userId": "1",
+    "type": ["IT"],
+    "blocks": [
+      {
+        "id": "1",
+        "type": "TEXT",
+        "title": "Заголовок этого блока",
+        "paragraphs": [
+          "Kotlin (Ко́тлин) — статически типизированный, объектно-ориентированный язык программирования, работающий поверх Java Virtual Machine и разрабатываемый компанией JetBrains. Также компилируется в JavaScript и в исполняемый код ряда платформ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "KOTLIN news Start",
+    "subtitle": "Что нового в KOTLIN 2014",
+    "img": "https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/coding-orbit--kotlin.jpg",
+    "views": 1,
+    "user": {
+      "id": "1",
+      "username": "ILYA",
+      "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+    },
+    "createdAt": "26.02.2020",
+    "userId": "1",
+    "type": ["IT"],
+    "blocks": [
+      {
+        "id": "1",
+        "type": "TEXT",
+        "title": "Заголовок этого блока",
+        "paragraphs": [
+          "Kotlin (Ко́тлин) — статически типизированный, объектно-ориентированный язык программирования, работающий поверх Java Virtual Machine и разрабатываемый компанией JetBrains. Также компилируется в JavaScript и в исполняемый код ряда платформ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "KOTLIN news",
+    "subtitle": "Что нового в KOTLIN 2014",
+    "img": "https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/coding-orbit--kotlin.jpg",
+    "views": 1022,
+    "user": {
+      "id": "1",
+      "username": "ILYA",
+      "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+    },
+    "createdAt": "26.02.2014",
+    "userId": "1",
+    "type": ["IT"],
+    "blocks": [
+      {
+        "id": "1",
+        "type": "TEXT",
+        "title": "Заголовок этого блока",
+        "paragraphs": [
+          "Kotlin (Ко́тлин) — статически типизированный, объектно-ориентированный язык программирования, работающий поверх Java Virtual Machine и разрабатываемый компанией JetBrains. Также компилируется в JavaScript и в исполняемый код ряда платформ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "KOTLIN news",
+    "subtitle": "Что нового в KOTLIN 2014",
+    "img": "https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/coding-orbit--kotlin.jpg",
+    "views": 1022,
+    "user": {
+      "id": "1",
+      "username": "ILYA",
+      "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+    },
+    "createdAt": "26.02.2024",
+    "userId": "1",
+    "type": ["IT"],
+    "blocks": [
+      {
+        "id": "1",
+        "type": "TEXT",
+        "title": "Заголовок этого блока",
+        "paragraphs": [
+          "Kotlin (Ко́тлин) — статически типизированный, объектно-ориентированный язык программирования, работающий поверх Java Virtual Machine и разрабатываемый компанией JetBrains. Также компилируется в JavaScript и в исполняемый код ряда платформ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "KOTLIN news",
+    "subtitle": "Что нового в KOTLIN 2014",
+    "img": "https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/coding-orbit--kotlin.jpg",
+    "views": 1022,
+    "user": {
+      "id": "1",
+      "username": "ILYA",
+      "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+    },
+    "createdAt": "26.02.2024",
+    "userId": "1",
+    "type": ["IT"],
+    "blocks": [
+      {
+        "id": "1",
+        "type": "TEXT",
+        "title": "Заголовок этого блока",
+        "paragraphs": [
+          "Kotlin (Ко́тлин) — статически типизированный, объектно-ориентированный язык программирования, работающий поверх Java Virtual Machine и разрабатываемый компанией JetBrains. Также компилируется в JavaScript и в исполняемый код ряда платформ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "KOTLIN news",
+    "subtitle": "Что нового в KOTLIN 2014",
+    "img": "https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/coding-orbit--kotlin.jpg",
+    "views": 1022,
+    "user": {
+      "id": "1",
+      "username": "ILYA",
+      "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+    },
+    "createdAt": "26.02.2024",
+    "userId": "1",
+    "type": ["IT"],
+    "blocks": [
+      {
+        "id": "1",
+        "type": "TEXT",
+        "title": "Заголовок этого блока",
+        "paragraphs": [
+          "Kotlin (Ко́тлин) — статически типизированный, объектно-ориентированный язык программирования, работающий поверх Java Virtual Machine и разрабатываемый компанией JetBrains. Также компилируется в JavaScript и в исполняемый код ряда платформ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "title": "KOTLIN news",
+    "subtitle": "Что нового в KOTLIN 2014",
+    "img": "https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/coding-orbit--kotlin.jpg",
+    "views": 1022,
+    "user": {
+      "id": "1",
+      "username": "ILYA",
+      "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+    },
+    "createdAt": "26.02.2024",
+    "userId": "1",
+    "type": ["IT"],
+    "blocks": [
+      {
+        "id": "1",
+        "type": "TEXT",
+        "title": "Заголовок этого блока",
+        "paragraphs": [
+          "Kotlin (Ко́тлин) — статически типизированный, объектно-ориентированный язык программирования, работающий поверх Java Virtual Machine и разрабатываемый компанией JetBrains. Также компилируется в JavaScript и в исполняемый код ряда платформ"
+        ]
+      }
+    ]
+  }
+]

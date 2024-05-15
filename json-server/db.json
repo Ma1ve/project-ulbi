@@ -1,0 +1,584 @@
+{
+  "notifications": [
+    {
+      "id": "1",
+      "title": "Уведомление 1",
+      "description": "Произошла какое-то событие",
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Уведомление 2",
+      "description": "Произошла какое-то событие",
+      "userId": "1",
+      "href": "http://localhost:3000/admin"
+    },
+    {
+      "id": "3",
+      "title": "Уведомление 3",
+      "description": "Произошла какое-то событие",
+      "userId": "1",
+      "href": "http://localhost:3000/admin"
+    },
+    {
+      "id": "4",
+      "title": "Уведомление 4",
+      "description": "Произошла какое-то событие",
+      "userId": "1",
+      "href": "http://localhost:3000/admin"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "articleId": "1",
+      "userId": "1",
+      "avatar": "https://tverigrad.ru/wp-content/uploads/2020/02/Mercedes-VISION-AVTR-1.jpg"
+    },
+    {
+      "id": "2",
+      "articleId": "1",
+      "text": "another comment about post 1",
+      "userId": "1",
+      "avatar": "https://tverigrad.ru/wp-content/uploads/2020/02/Mercedes-VISION-AVTR-1.jpg"
+    },
+    {
+      "id": "3",
+      "text": "another comment about post 3",
+      "userId": "1",
+      "avatar": "https://tverigrad.ru/wp-content/uploads/2020/02/Mercedes-VISION-AVTR-1.jpg"
+    },
+    {
+      "id": "acd284eb-15e1-469c-aacc-a05e03b99935",
+      "text": "asdf",
+      "articleId": "1",
+      "userId": "2",
+      "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+    },
+    {
+      "id": "3a864da6-633f-4511-8ff3-58ca1f476349",
+      "text": "adf",
+      "articleId": "1",
+      "userId": "2",
+      "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+    },
+    {
+      "id": "29819eb3-25e8-4280-aa61-46da34a74304",
+      "text": "asdfasdfasdfasdf",
+      "articleId": "1",
+      "userId": "2",
+      "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+    },
+    {
+      "id": "b64b0e7b-df10-487d-9994-c1d66e0752f7",
+      "text": "sfasdf",
+      "articleId": "1",
+      "userId": "2",
+      "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+    },
+    {
+      "id": "84966d11-8dc2-4abd-9d5c-8011752d2a26",
+      "text": "asdfasdf",
+      "articleId": "1",
+      "userId": "2",
+      "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+    },
+    {
+      "id": "2a51bbe5-5906-4a55-90ec-19e8912c4e2b",
+      "text": "dgsdfg",
+      "articleId": "2",
+      "userId": "2",
+      "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+    },
+    {
+      "id": "52bf6286-47bb-41be-8383-739a0f1ec861",
+      "text": "vdsfg",
+      "articleId": "3",
+      "userId": "1",
+      "avatar": "https://tverigrad.ru/wp-content/uploads/2020/02/Mercedes-VISION-AVTR-1.jpg"
+    },
+    {
+      "id": "1bb9b9dc-09ac-48e3-a548-1d3437ec6886",
+      "text": "dfg",
+      "articleId": "2",
+      "userId": "1",
+      "avatar": "https://tverigrad.ru/wp-content/uploads/2020/02/Mercedes-VISION-AVTR-1.jpg"
+    },
+    {
+      "id": "4d468f0e-2c33-47a4-9a12-16ecafacf85f",
+      "text": "sdfg",
+      "articleId": "2",
+      "userId": "1",
+      "avatar": "https://tverigrad.ru/wp-content/uploads/2020/02/Mercedes-VISION-AVTR-1.jpg"
+    },
+    {
+      "id": "aba92049-adc0-4019-a754-f232023ff264",
+      "text": "f",
+      "articleId": "2",
+      "userId": "1",
+      "avatar": "https://tverigrad.ru/wp-content/uploads/2020/02/Mercedes-VISION-AVTR-1.jpg"
+    },
+    {
+      "id": "2c816fef-e318-4ce2-ad16-6f80138f291a",
+      "text": "dfg",
+      "articleId": "3",
+      "userId": "1",
+      "avatar": "https://tverigrad.ru/wp-content/uploads/2020/02/Mercedes-VISION-AVTR-1.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123",
+      "roles": [
+        "ADMIN"
+      ],
+      "avatar": "https://tverigrad.ru/wp-content/uploads/2020/02/Mercedes-VISION-AVTR-1.jpg"
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "password": "123",
+      "roles": [
+        "USER"
+      ],
+      "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+    },
+    {
+      "id": "3",
+      "username": "manager",
+      "password": "123",
+      "roles": [
+        "MANAGER"
+      ],
+      "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+    },
+    {
+      "id": "4",
+      "username": "testuser",
+      "password": "123",
+      "roles": [
+        "ADMIN"
+      ],
+      "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+    }
+  ],
+  "profile": [
+    {
+      "id": "1",
+      "name": "sfh",
+      "lastname": "MOSKAadsfasdfa",
+      "age": 22,
+      "currency": "EUR",
+      "country": "Ukraine",
+      "city": "22f",
+      "username": "admin",
+      "avatar": "https://tverigrad.ru/wp-content/uploads/2020/02/Mercedes-VISION-AVTR-1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "EWRasdf",
+      "lastname": "SEREGA",
+      "age": 32,
+      "currency": "EUR",
+      "country": "Russian",
+      "city": "22f",
+      "username": "admin123",
+      "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+    }
+  ],
+  "articleRating": [
+    {
+      "id": "1",
+      "rate": 4,
+      "feedback": "Хорошая статья",
+      "userId": "1",
+      "articleId": "1"
+    },
+    {
+      "id": "2",
+      "rate": 4,
+      "feedback": "Хорошая статья",
+      "userId": "1",
+      "articleId": "2"
+    },
+    {
+      "id": "b0a9cebb-b242-4769-8f63-1f0d720e9ed2",
+      "rate": 2,
+      "feedback": "",
+      "userId": "1",
+      "articleId": "3"
+    },
+    {
+      "id": "11ebac58-0b2c-4404-940d-a1d6413b792c",
+      "rate": 1,
+      "feedback": "",
+      "userId": "1",
+      "articleId": "4"
+    },
+    {
+      "id": "4e939111-fb7f-418f-8bfb-6834eeff29d0",
+      "rate": 1,
+      "feedback": "",
+      "userId": "1",
+      "articleId": "5"
+    }
+  ],
+  "profileRating": [
+    {
+      "id": "1",
+      "rate": 4,
+      "feedback": "Хорошая статья",
+      "userId": "1",
+      "profileId": "1"
+    },
+    {
+      "id": "2",
+      "rate": 4,
+      "feedback": "Хорошая статья",
+      "userId": "1",
+      "profileId": "2"
+    }
+  ],
+  "articles": [
+    {
+      "id": "1",
+      "title": "Java news",
+      "subtitle": "Что нового в JS 2014",
+      "img": "https://cs11.pikabu.ru/post_img/2020/02/29/11/og_og_1583005972263333358.jpg",
+      "views": 4545,
+      "user": {
+        "id": "1",
+        "username": "ILYA",
+        "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+      },
+      "createdAt": "26.02.2024",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "NEW TITITITIITITIIT",
+          "paragraphs": [
+            "In this example, we use the Image() constructor to create an image element, then we set its src and append in body element. Additionally, we set a lazy loading for the image."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Python news",
+      "subtitle": "Что нового в PYTHON 2014",
+      "img": "https://dkrn4sk0rn31v.cloudfront.net/2020/01/07093212/PYTHON.png",
+      "views": 1022,
+      "user": {
+        "id": "1",
+        "username": "ILYA",
+        "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+      },
+      "createdAt": "26.02.2024",
+      "userId": "1",
+      "type": [
+        "IT",
+        "ECONOMICS"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Высокоуровневый язык программирования общего назначения с динамической строгой типизацией и автоматическим управлением памятью, ориентированный на повышение производительности разработчика, читаемости кода и его качества, а также на обеспечение"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "KOTLIN news Свежий",
+      "subtitle": "Что нового в KOTLIN 2014",
+      "img": "https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/coding-orbit--kotlin.jpg",
+      "views": 22,
+      "user": {
+        "id": "1",
+        "username": "ILYA",
+        "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+      },
+      "createdAt": "22.02.2019",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Kotlin (Ко́тлин) — статически типизированный, объектно-ориентированный язык программирования, работающий поверх Java Virtual Machine и разрабатываемый компанией JetBrains. Также компилируется в JavaScript и в исполняемый код ряда платформ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "KOTLIN news Start",
+      "subtitle": "Что нового в KOTLIN 2014",
+      "img": "https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/coding-orbit--kotlin.jpg",
+      "views": 1,
+      "user": {
+        "id": "1",
+        "username": "ILYA",
+        "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+      },
+      "createdAt": "26.02.2020",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Kotlin (Ко́тлин) — статически типизированный, объектно-ориентированный язык программирования, работающий поверх Java Virtual Machine и разрабатываемый компанией JetBrains. Также компилируется в JavaScript и в исполняемый код ряда платформ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "KOTLIN news",
+      "subtitle": "Что нового в KOTLIN 2014",
+      "img": "https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/coding-orbit--kotlin.jpg",
+      "views": 1022,
+      "user": {
+        "id": "1",
+        "username": "ILYA",
+        "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+      },
+      "createdAt": "26.02.2014",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Kotlin (Ко́тлин) — статически типизированный, объектно-ориентированный язык программирования, работающий поверх Java Virtual Machine и разрабатываемый компанией JetBrains. Также компилируется в JavaScript и в исполняемый код ряда платформ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "KOTLIN news",
+      "subtitle": "Что нового в KOTLIN 2014",
+      "img": "https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/coding-orbit--kotlin.jpg",
+      "views": 1022,
+      "user": {
+        "id": "1",
+        "username": "ILYA",
+        "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+      },
+      "createdAt": "26.02.2024",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Kotlin (Ко́тлин) — статически типизированный, объектно-ориентированный язык программирования, работающий поверх Java Virtual Machine и разрабатываемый компанией JetBrains. Также компилируется в JavaScript и в исполняемый код ряда платформ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "KOTLIN news",
+      "subtitle": "Что нового в KOTLIN 2014",
+      "img": "https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/coding-orbit--kotlin.jpg",
+      "views": 1022,
+      "user": {
+        "id": "1",
+        "username": "ILYA",
+        "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+      },
+      "createdAt": "26.02.2024",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Kotlin (Ко́тлин) — статически типизированный, объектно-ориентированный язык программирования, работающий поверх Java Virtual Machine и разрабатываемый компанией JetBrains. Также компилируется в JavaScript и в исполняемый код ряда платформ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "KOTLIN news",
+      "subtitle": "Что нового в KOTLIN 2014",
+      "img": "https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/coding-orbit--kotlin.jpg",
+      "views": 1022,
+      "user": {
+        "id": "1",
+        "username": "ILYA",
+        "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+      },
+      "createdAt": "26.02.2024",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Kotlin (Ко́тлин) — статически типизированный, объектно-ориентированный язык программирования, работающий поверх Java Virtual Machine и разрабатываемый компанией JetBrains. Также компилируется в JavaScript и в исполняемый код ряда платформ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "KOTLIN news",
+      "subtitle": "Что нового в KOTLIN 2014",
+      "img": "https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/coding-orbit--kotlin.jpg",
+      "views": 1022,
+      "user": {
+        "id": "1",
+        "username": "ILYA",
+        "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+      },
+      "createdAt": "26.02.2024",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Kotlin (Ко́тлин) — статически типизированный, объектно-ориентированный язык программирования, работающий поверх Java Virtual Machine и разрабатываемый компанией JetBrains. Также компилируется в JavaScript и в исполняемый код ряда платформ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "KOTLIN news",
+      "subtitle": "Что нового в KOTLIN 2014",
+      "img": "https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/coding-orbit--kotlin.jpg",
+      "views": 1022,
+      "user": {
+        "id": "1",
+        "username": "ILYA",
+        "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+      },
+      "createdAt": "26.02.2024",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Kotlin (Ко́тлин) — статически типизированный, объектно-ориентированный язык программирования, работающий поверх Java Virtual Machine и разрабатываемый компанией JetBrains. Также компилируется в JavaScript и в исполняемый код ряда платформ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "KOTLIN news",
+      "subtitle": "Что нового в KOTLIN 2014",
+      "img": "https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/coding-orbit--kotlin.jpg",
+      "views": 1022,
+      "user": {
+        "id": "1",
+        "username": "ILYA",
+        "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+      },
+      "createdAt": "26.02.2024",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Kotlin (Ко́тлин) — статически типизированный, объектно-ориентированный язык программирования, работающий поверх Java Virtual Machine и разрабатываемый компанией JetBrains. Также компилируется в JavaScript и в исполняемый код ряда платформ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "KOTLIN news",
+      "subtitle": "Что нового в KOTLIN 2014",
+      "img": "https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/coding-orbit--kotlin.jpg",
+      "views": 1022,
+      "user": {
+        "id": "1",
+        "username": "ILYA",
+        "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+      },
+      "createdAt": "26.02.2024",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Kotlin (Ко́тлин) — статически типизированный, объектно-ориентированный язык программирования, работающий поверх Java Virtual Machine и разрабатываемый компанией JetBrains. Также компилируется в JavaScript и в исполняемый код ряда платформ"
+          ]
+        }
+      ]
+    }
+  ]
+}

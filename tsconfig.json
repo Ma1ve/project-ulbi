@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    //Для абсолютного импорта
+    "baseUrl": ".",
+    // Указываем абсолютный путь все экспорты и импотры из папки src
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    // Куда собирается не так ваожно тк собираем с помощью webpack
+    "outDir": "./dist/",
+    // Чтобы не было any
+    "noImplicitAny": true,
+    "module": "ESNext",
+    // Во что будет собираться
+    "target": "es5",
+    "jsx": "react-jsx",
+    // Позволяет обрабатывать не только ts но и js
+    "allowJs": true,
+    "strict": true,
+    // node и classic какие импорты будут
+    // если node то относительно базавого url чаще всего
+    // если classic то относительно того который задан в compilerOptions
+    "moduleResolution": "node",
+    // Многие библиотеки не поддерживают дефолтный импорт и приходится писать import * as ... from
+    // С allowSyntheticDefaultImports позволяет испортировать по умолчанию
+    // Даже когда у пакета нету дефолтного импорта!!!
+    "allowSyntheticDefaultImports": true,
+    // Позволяет использовать import export а не common js
+    "esModuleInterop": true,
+    // Babel не всегда понимает концепцию типов кода
+    "isolatedModules": true
+  },
+  // ts node не поддерживает ничего кроме CommonJS поэтому чтобы
+  // все работало правильно нужно добавить дополнительные настройки
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  },
+  "include": ["./config/jest/setupTests.ts", "./src/**/*.tsx", "./src/**/*.ts"]
+}

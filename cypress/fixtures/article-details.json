@@ -1,0 +1,23 @@
+{
+  "id": "1",
+  "title": "Java news",
+  "subtitle": "Что нового в JS 2014",
+  "img": "https://cs11.pikabu.ru/post_img/2020/02/29/11/og_og_1583005972263333358.jpg",
+  "views": 4545,
+  "user": {
+    "id": "1",
+    "username": "ILYA",
+    "avatar": "https://cdn.comss.net/img/052019/wsl_2.png"
+  },
+  "createdAt": "26.02.2024",
+  "userId": "1",
+  "type": ["IT"],
+  "blocks": [
+    {
+      "id": "1",
+      "type": "TEXT",
+      "title": "NEW TITITITIITITIIT",
+      "paragraphs": ["In this example, we use the Image() constructor to create an image element, then we set its src and append in body element. Additionally, we set a lazy loading for the image."]
+    }
+  ]
+}
