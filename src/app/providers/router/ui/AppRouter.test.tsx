@@ -41,6 +41,7 @@ describe('router', () => {
       initialState: {
         user: {
           _inited: true,
+          //@ts-ignore
           authData: {},
         },
       },

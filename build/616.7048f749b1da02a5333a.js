@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkulbi=self.webpackChunkulbi||[]).push([[616],{7616:(e,u,n)=>{n.r(u),n.d(u,{default:()=>i}),n(6540);var r=n(2389),s=n(572),c=n(4848);const i=function(){var e=(0,r.Bd)().t;return(0,c.jsx)(s.Y,{children:(0,c.jsx)("div",{children:e("Админ панель")})})}}}]);

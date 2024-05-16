@@ -12,5 +12,15 @@ interface IconProps extends React.SVGProps<React.SVGAttributes<SVGElement>> {
 export const Icon = (props: IconProps) => {
   const { className, Svg, width, height, inverted, ...otherProps } = props;
 
-  return <Svg className={classNames(inverted ? cls.inverted : cls.Icon, {}, [className])} width={width} height={height} {...otherProps} />;
+  return (
+    //@ts-ignore
+    <Svg
+      className={classNames(inverted ? cls.inverted : cls.Icon, {}, [
+        className,
+      ])}
+      width={width}
+      height={height}
+      {...otherProps}
+    />
+  );
 };

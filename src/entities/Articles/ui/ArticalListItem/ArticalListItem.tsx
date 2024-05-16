@@ -1,7 +1,12 @@
 import { classNames } from '@/shared/lib/classNames/classNames';
 import cls from './ArticleListItem.module.scss';
 import { useTranslation } from 'react-i18next';
-import { Article, ArticleBlockType, ArticleTextBlock, ArticleView } from '../../model/types/article';
+import {
+  Article,
+  ArticleBlockType,
+  ArticleTextBlock,
+  ArticleView,
+} from '../../model/types/article';
 import { Text } from '@/shared/ui/Text';
 import { Icon } from '@/shared/ui/Icon';
 
@@ -46,10 +51,19 @@ export const ArticleListItem = (props: ArticleListItemProps) => {
         data-testid={'ArticleListItem'}
         target={target}
         to={getRouteArticleDetails(article.id)}
-        /* to={RoutePath.article_details + article.id} */ className={classNames(cls.ArticleListItem, {}, [className, cls[view]])}>
+        /* to={RoutePath.article_details + article.id} */ className={classNames(
+          cls.ArticleListItem,
+          {},
+          [className, cls[view]],
+        )}>
         <Card className={cls.card}>
           <div className={cls.imageWrapper}>
-            <AppImage fallback={<Skeleton width="100%" height={250} />} src={article.img} alt={article.title} className={cls.img} />
+            <AppImage
+              fallback={<Skeleton width="100%" height={250} />}
+              src={article.img}
+              alt={article.title}
+              className={cls.img}
+            />
             <Text text={article.createdAt} className={cls.date} />
           </div>
           <div className={cls.infoWrapper}>
@@ -63,9 +77,13 @@ export const ArticleListItem = (props: ArticleListItemProps) => {
   }
 
   if (view === ArticleView.BIG) {
-    const textBlock = article.blocks.find((block) => block.type === ArticleBlockType.TEXT) as ArticleTextBlock;
+    const textBlock = article.blocks.find(
+      (block) => block.type === ArticleBlockType.TEXT,
+    ) as ArticleTextBlock;
     return (
-      <div data-testid={'ArticleListItem'} className={classNames(cls.ArticleListItem, {}, [className, cls[view]])}>
+      <div
+        data-testid={'ArticleListItem'}
+        className={classNames(cls.ArticleListItem, {}, [className, cls[view]])}>
         <Card className={cls.card}>
           <div className={cls.header}>
             <Avatar size={30} src={article.user.avatar} />
@@ -74,10 +92,25 @@ export const ArticleListItem = (props: ArticleListItemProps) => {
           </div>
           <Text text={article.title} className={cls.title} />
           {types}
-          <AppImage fallback={<Skeleton width={200} height={200} />} src={article.img} alt={article.title} className={cls.img} />
-          {textBlock && <ArticleTextBlockComponent block={textBlock} className={cls.textBlock} />}
+          <AppImage
+            fallback={<Skeleton width={200} height={200} />}
+            src={article.img}
+            alt={article.title}
+            className={cls.img}
+          />
+          {textBlock && (
+            <ArticleTextBlockComponent
+              block={textBlock}
+              className={cls.textBlock}
+            />
+          )}
           <div className={cls.footer}>
-            <AppLink target={target} to={getRouteArticleDetails(article.id)} /* to={RoutePath.article_details + article.id} */>
+            <AppLink
+              target={target}
+              to={getRouteArticleDetails(
+                article.id,
+              )} /* to={RoutePath.article_details + article.id} */
+            >
               <Button>{t('Читать далее')}</Button>
             </AppLink>
 
@@ -89,7 +122,8 @@ export const ArticleListItem = (props: ArticleListItemProps) => {
   }
 
   return (
-    <div className={classNames(cls.ArticleListItem, {}, [className, cls[view]])}>
+    <div
+      className={classNames(cls.ArticleListItem, {}, [className, cls[view]])}>
       <div>{article.title}</div>
     </div>
   );

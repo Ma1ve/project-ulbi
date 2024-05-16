@@ -10,7 +10,9 @@ describe('Пользователь заходит на страницу с за�
   });
 
   it('На стабах (фиксиурах)', () => {
-    cy.intercept('GET', '**/articles?*', { fixture: 'article-details.json' });
+    cy.intercept('GET', '**/articles?*', {
+      fixture: 'article-details.json',
+    });
     cy.getByTestId('ArticleList').should('exist');
     cy.getByTestId('ArticleListItem').should('have.length.greaterThen', 3);
   });
